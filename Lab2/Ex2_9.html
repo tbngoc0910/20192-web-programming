@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Exercise 2.9</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="Ex2_9.php" method="POST">
+            <br>
+            Your name : 
+            <input type="text" name="name" size="15" maxlength="20">
+            Dob : 
+            <input type="date" name="dob">
+            Student's ID :
+            <input type="text" name="id" maxlength="8" size="10">
+            <br>Gender :
+            <input type="radio" value="male" name="gender"> Male
+            <input type="radio" value="female" name="gender"> Female
+            <br>
+            University :
+            <input type="text" name="uni" size="40">
+            Class : 
+            <input type="text" name="class" size="5">
+            Level : 
+            <select name="level" size="1">
+                <option>1</option>
+                <option>2</option>
+                <option selected>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select> year
+            <br>
+            Hobby :
+            <input type="checkbox" value="Movie" name="hobby[]"> Watching movies
+            <input type="checkbox" value="Singing" name="hobby[]"> Singing
+            <input type="checkbox" value="Sport" name="hobby[]"> Sport
+            <input type="checkbox" value="Fashion" name="hobby[]"> Fashion
+            <input type="checkbox" value="Camping" name="hobby[]"> Camping
+            <input type="checkbox" value="Shopping" name="hobby[]"> Shopping
+            <input type="checkbox" value="Gaming" name="hobby[]"> Gaming
+            <br>
+            Your website : 
+            <input type="url" name="web">
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
