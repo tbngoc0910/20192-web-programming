@@ -12,37 +12,59 @@ and open the template in the editor.
     </head>
     <body>
         <form action="Ex2_9.php" method="POST">
-            <br>
-            Your name : 
-            <input type="text" name="name" size="15" maxlength="20">
-            Dob : 
-            <input type="date" name="dob">
-            Student's ID :
-            <input type="text" name="id" maxlength="8" size="10">
-            <br>Gender :
-            <input type="radio" value="male" name="gender"> Male
+            <table>
+            <tr>
+                <td>Your name : </td>
+                <td><input type="text" name="name" size="15" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>Dob : </td> 
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td>Student's ID : </td>
+                <td><input type="text" name="id" maxlength="8" size="10"> </td>
+            </tr>
+            <tr>
+                <td>Gender : </td>
+                <td><input type="radio" value="male" name="gender"> Male
             <input type="radio" value="female" name="gender"> Female
-            <br>
-            University :
-            <input type="text" name="uni" size="40">
-            Class : 
-            <input type="text" name="class" size="5">
-            Level : 
-            <select name="level" size="1">
+                </td>
+            </tr>
+            <tr>
+                <td>University : </td>
+                <td><input type="text" name="uni" size="40"> </td>
+            </tr>
+            <tr>
+                <td>Class : </td> 
+                <td><input type="text" name="class" size="5"></td>
+            </tr>
+            <tr>
+                <td>Level : </td>
+                <td><select name="level" size="1">
                 <option>1</option>
                 <option>2</option>
                 <option selected>3</option>
                 <option>4</option>
                 <option>5</option>
             </select> year
-            <br>
+                </td>
+            </tr>
+            </table>
             Hobby :
+            <br>
             <input type="checkbox" value="Movie" name="hobby[]"> Watching movies
+            <br>
             <input type="checkbox" value="Singing" name="hobby[]"> Singing
+            <br>
             <input type="checkbox" value="Sport" name="hobby[]"> Sport
+            <br>
             <input type="checkbox" value="Fashion" name="hobby[]"> Fashion
+            <br>
             <input type="checkbox" value="Camping" name="hobby[]"> Camping
+            <br>
             <input type="checkbox" value="Shopping" name="hobby[]"> Shopping
+            <br>
             <input type="checkbox" value="Gaming" name="hobby[]"> Gaming
             <br>
             Your website : 

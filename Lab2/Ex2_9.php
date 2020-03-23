@@ -13,6 +13,7 @@
             $level = $_POST["level"];
             $hobby = $_POST["hobby"];
             $id = $_POST["id"];
+            $website = $_POST["web"];
             print "<br><br>Name : $name";
             print "&nbsp &nbsp Gender : $gender<br><br>";
             print "Date of birth : $dob<br><br>";
@@ -25,6 +26,9 @@
                     print "<li>$hb</li>";
                 }
                 print "</ul>";
+            }
+            if(strlen($website)!=0){
+                print "<br>Website : $website";
             }
         ?>
     </body>
