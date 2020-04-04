@@ -5,7 +5,7 @@
         <br> The page calculates the distances from Chicago!
         <br> Select a destination:
         <form action="CheckDistance.php" method="GET">
-            <select name="destination" size=5 >
+            <select name="destination[]" size=5 multiple >
                 <option>Boston</option>
                 <option>Dallas</option>
                 <option>Miami</option>
