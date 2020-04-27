@@ -1,0 +1,21 @@
+h1{
+    text-align: center
+}
+p{
+    margin: 0.25in;
+    border: 0.25in solid black;
+    padding: 0.25in;
+    background: URL(https://previews.123rf.com/images/korolyok/korolyok1803/korolyok180300054/97517869-old-grunge-newspaper-paper-texture-background-blurred-vintage-newspaper-background-scratched-paper-t.jpg)
+}
+body{
+    background: URL(https://images.pexels.com/photos/1323712/pexels-photo-1323712.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+}
+.banner{
+    background: URL(https://previews.123rf.com/images/costasss/costasss1501/costasss150100022/35639087-used-scratched-bamboo-wood-cutting-board-background-detail.jpg);
+    font-size: 50pt;
+    font-family: Arial Rounded MT Bold
+}
+table {
+    width: 360;
+    height: 199
+}

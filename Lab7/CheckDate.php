@@ -1,7 +1,7 @@
 <html>
     <head><title>Date</title></head>
     <body>
-        <form action='DateProcessing.php' method="POST">
+        <form action='FullDateProcessing.php' method="POST">
             <table>
                 <tr>
                     <td>Enter date to check (mm/dd/yyyy) : </td>
