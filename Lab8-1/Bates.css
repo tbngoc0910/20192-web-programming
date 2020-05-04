@@ -6,3 +6,19 @@ span {
 p{
     margin-top: 5pt
 }
+p.rhead{
+    text-align: right;
+    margin-right: 0.5in;
+    font-family: sans-serif
+}
+p.lhead{
+    font-family: sans-serif
+}
+p.body{
+    text-align: justify;
+    text-indent: 0.5in
+}
+p.foot{
+    margin-left: 60%;
+    line-height: 300%
+}
