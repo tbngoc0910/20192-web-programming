@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student SYSTEM "studentInfo.dtd">
+<student>
+    <name> Tran Bich Ngoc </name>
+    <id> 20167313 </id>
+    <major> IT </major>
+    <class>ICT - 02</class>
+</student>
